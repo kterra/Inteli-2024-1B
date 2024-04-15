@@ -3,4 +3,4 @@
 ## Organização do Repositório
 1. [Instruções](https://kterra.github.io/Inteli-2024-1B/instrucoes)
 2. [Códigos-fonte](https://kterra.github.io/Inteli-2024-1B/src)
-3. [Materiais](https://kterra.github.io/Inteli-2024-1B/materiais)
+3. [Materiais](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais)
