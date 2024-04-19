@@ -1,7 +1,7 @@
 ## Panorama do Módulo - Programação
 
 ### Semana 1
-- Instrução 1: Introdução aos Sistemas Web;
+- Instrução 1: Introdução aos Sistemas Web [Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link);
 
 ### Semana 2
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico;
