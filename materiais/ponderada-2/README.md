@@ -1,7 +1,7 @@
 # Exemplo de Design de Arquitetura
 
 ![exemplo_arq.jpg](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/exemplo-arq.jpg)
-# Exemplo de Readme
+
 
 # Template Readme para Arquitetura MVC em Markdown
 - Nome do Projeto: [Insira o nome do seu projeto]
