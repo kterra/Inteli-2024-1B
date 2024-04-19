@@ -5,6 +5,7 @@
 
 ### Semana 2
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico;
+- Atividade ponderada 2 - Arquitetura em Esboço do MVC em Sails ([Orientações na Adalove](https://adalove.inteli.edu.br/academic-life))
 
 ### Semana 3
 - Instrução 3.1: Banco de Dados II - Create, Read, Update, Delete;
