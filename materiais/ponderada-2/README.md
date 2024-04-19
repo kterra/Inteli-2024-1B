@@ -32,7 +32,7 @@
 Descreva as implicações da arquitetura em termos de escalabilidade, manutenção, testabilidade e outros aspectos importantes.
 
 ### Recursos Adicionais:
-Documentação do Sails.js: https://github.com/balderdashy/sails
-Tutorial do draw.io: https://m.youtube.com/watch?v=w3zm-wbmlpc
-Exemplos de diagramas MVC: https://www.lucidchart.com/pages/templates
+- Documentação do Sails.js: https://github.com/balderdashy/sails
+- Tutorial do draw.io: https://m.youtube.com/watch?v=w3zm-wbmlpc
+- Exemplos de diagramas MVC: https://www.lucidchart.com/pages/templates
 
