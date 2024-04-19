@@ -2,6 +2,19 @@
 
 ### Semana 1
 - Instrução 1: Introdução aos Sistemas Web ([Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link));
+- Agenda do Encontro:
+  - Apresentação
+  - Combinados para o módulo 2
+  - Discussão sobre os objetivos do módulo
+  - Alinhamento sobre o projeto do módulo
+  - Tópicos da Instrução 01
+     - O que são sistemas web?
+     - Arquitetura cliente-servidor
+     - HTTP na prática
+     - Sails e MVC
+     - Setup
+     - Gitflow e Boas práticas Git
+
 
 ### Semana 2
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico;
