@@ -13,7 +13,7 @@
        - HTTP na prática
        - Sails e MVC
        - Setup
-       - Gitflow e Boas práticas Git (Acesse dicas sobre Git [aqui.](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/README.md))
+       - Gitflow e Boas práticas Git (Acesse dicas sobre Git [aqui](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/README.md))
 
 
 ### Semana 2
