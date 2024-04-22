@@ -20,7 +20,7 @@
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico;
 - Atividade ponderada 2 - Arquitetura em Esboço do MVC em Sails
   - [Orientações na Adalove](https://adalove.inteli.edu.br/academic-life)
-  - [Exemplo de Arquitetura MVC](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/ponderada-2)
+  - [Exemplo de Arquitetura MVC](https://kterra.github.io/Inteli-2024-1B/blob/main/materiais/ponderada-2/README.md)
 
 ### Semana 3
 - Instrução 3.1: Banco de Dados II - Create, Read, Update, Delete;
