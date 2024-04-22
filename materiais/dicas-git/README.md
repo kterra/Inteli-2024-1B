@@ -1,10 +1,10 @@
 # Dicas Git
 
-## Git Cheat Sheet
-![Git Cheat Sheet](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/git-cheat-sheet-light.jpg)
-
 ## Gitflow
 - Live Prof. Afonso sobre Gitflow: https://www.youtube.com/watch?v=mahUKxcJ28A
+
+## Git Cheat Sheet
+![Git Cheat Sheet](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/git-cheat-sheet-light.jpg)
 
 ## Glossário Git para Iniciantes: Desvendando os Segredos do Controle de Versão
 
