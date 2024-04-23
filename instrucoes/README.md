@@ -15,6 +15,8 @@
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico ([Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link))
   - Tópicos da instrução:
     - Parte 1: Introdução teórica
+      - Motivação: Banco de dados no contexto do projeto
+      - Persistência
       - O que é banco de dados?
       - Banco de dados relacional vs. não-relacional
       - Linguagem SQL
