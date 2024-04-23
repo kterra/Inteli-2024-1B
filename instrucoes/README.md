@@ -1,7 +1,7 @@
 ## Panorama do Módulo - Programação
 
 ### Semana 1
-- Instrução 1: Introdução aos Sistemas Web ([Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link));
+- Instrução 1: Introdução aos Sistemas Web ([Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link))
   - Tópicos da Instrução
     - O que são sistemas web?
     - Arquitetura cliente-servidor
@@ -12,14 +12,13 @@
 
 
 ### Semana 2
-- Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico ([Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link));
+- Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico ([Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link))
   - Tópicos da instrução:
     - Parte 1: Introdução teórica
       - O que é banco de dados?
       - Banco de dados relacional vs. não-relacional
       - Linguagem SQL
       - SGBD e PostgreSQL
-
     - Parte 2: SQL na Prática (Programação em Pares)
       - Sintaxe básica de uma consulta SQL
       - Conexão no banco de dados com DBeaver
