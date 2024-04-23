@@ -1,4 +1,24 @@
-## Panorama do Módulo - Programação
+## Módulo 2 - Programação
+
+### Projeto do módulo
+#### Objetivo
+- Site online para apoiar estudantes
+
+#### ESCOPO
+##### O que deve ter:
+- um painel de trabalho
+- responder às perguntas da pesquisa e às revisões por pares
+- gerar dados a serem usados em visualizações que mostram as pontuações
+- dos alunos, da equipe, do país (3 níveis? 3 rodadas?) na tomada de decisões
+- colaboração, tratamento de conflitos e liderança (vários tópicos) antes e durante
+a simulação.
+
+##### O que seria bom ter:
+- medidor de felicidade
+- funcionalidade para download de materiais
+- upload de tarefas, acesso/feedback do Tutor
+- plataforma de comunicação/mensagens, ferramenta de análise de resultados...
+Clique aqui para acessar o TAPI
 
 ### Semana 1
 - Instrução 1: Introdução aos Sistemas Web ([Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link))
