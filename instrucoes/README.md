@@ -2,23 +2,28 @@
 
 ### Semana 1
 - Instrução 1: Introdução aos Sistemas Web ([Slides](https://drive.google.com/file/d/1ahlSRPVw7F503nEQ_1Rm4qsg7wcGTxuD/view?usp=drive_link));
-  - Agenda do Encontro:
-    - Apresentação
-    - Combinados para o módulo 2
-    - Discussão sobre os objetivos do módulo
-    - Alinhamento sobre o projeto do módulo
-    - Tópicos da Instrução 01
-       - O que são sistemas web?
-       - Arquitetura cliente-servidor
-       - HTTP na prática
-       - Sails e MVC
-       - Setup
-       - Gitflow e Boas práticas Git (Acesse dicas sobre Git [aqui](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/README.md))
+  - Tópicos da Instrução
+    - O que são sistemas web?
+    - Arquitetura cliente-servidor
+    - HTTP na prática
+    - Sails e MVC
+    - Setup
+    - Gitflow e Boas práticas Git (Acesse dicas sobre Git [aqui](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/dicas-git/README.md))
 
 
 ### Semana 2
 - Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico ([Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link));
-  - [Consultas SQL implementadas na aula](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-2)
+  - Tópicos da instrução:
+    - Parte 1: Introdução teórica
+      - O que é banco de dados?
+      - Banco de dados relacional vs. não-relacional
+      - Linguagem SQL
+      - SGBD e PostgreSQL
+
+    - Parte 2: SQL na Prática (Programação em Pares)
+      - Sintaxe básica de uma consulta SQL
+      - Conexão no banco de dados com DBeaver
+      - Consultas SQL na prática (Acesse os scripts SQL [aqui](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-2))
   - Atividade ponderada 2 - Arquitetura em Esboço do MVC em Sails
     - [Orientações na Adalove](https://adalove.inteli.edu.br/academic-life)
     - [Exemplo de Arquitetura MVC](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/README.md)
