@@ -30,3 +30,16 @@ Cada aluno deve desenvolver e apresentar, individualmente, uma proposta de arqui
 - Explique os elementos chave do diagrama e como eles se relacionam.
 - Explique as decisões de design e as implicações de cada componente na arquitetura.
 - Explique como a arquitetura atende aos objetivos e requisitos do projeto.
+
+## Barema
+Componentes de correção:
+
+1. A arquitetura possui os componentes de Model, View e Controller?
+2. As conexões entre os componentes estão em angulação reta ou de 90 graus?
+3. As entidades e atributos dos models e controllers estão descritas dentro dos componentes?
+4. A descrição dos elementos chaves, decisões, entidades e atributos estão de forma clara e objetiva no readme?
+5. A arquitetura está seguindo a referência de exemplo?
+6. A arquitetura foi criada no draw.io e postada no github?
+7. Os controllers refletem as responsabilidades da lógica de negócio?
+8. As views estão conectadas com seu controller e model respectivos?
+9. O banco de dados está representado como dependência externa?
