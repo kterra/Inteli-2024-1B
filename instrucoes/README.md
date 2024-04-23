@@ -27,7 +27,7 @@
       - Conexão no banco de dados com DBeaver
       - Consultas SQL na prática (Acesse os scripts SQL [aqui](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-2))
   - Atividade ponderada 2 - Arquitetura em Esboço do MVC em Sails
-    - [Orientações na Adalove](https://adalove.inteli.edu.br/academic-life)
+    - [Orientações na Adalove](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/orientacoes-adalove.md)
     - [Exemplo de Arquitetura MVC](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/README.md)
 
 ### Semana 3
