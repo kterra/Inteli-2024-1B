@@ -31,6 +31,7 @@
   - Atividade ponderada 2 - Arquitetura em Esboço do MVC em Sails
     - [Orientações na Adalove](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/orientacoes-adalove.md)
     - [Exemplo de Arquitetura MVC](https://github.com/kterra/Inteli-2024-1B/blob/main/materiais/ponderada-2/README.md)
+    - [Explicação Prof. Afonso](https://www.youtube.com/live/hS57_fgOadA?si=IDDKPkOCCX4Ut6DZ)
 
 ### Semana 3
 - Instrução 3.1: Banco de Dados II - Create, Read, Update, Delete;
