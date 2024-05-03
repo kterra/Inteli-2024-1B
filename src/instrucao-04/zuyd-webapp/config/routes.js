@@ -19,7 +19,8 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view: 'pages/teste'},
+  '/': { view: 'pages/homepage'},
+  '/teste': { view: 'pages/teste'},
   'GET /user/create': 'UsuarioController.showCreateForm',
   'POST /user/create': 'UsuarioController.create',
 

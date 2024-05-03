@@ -20,6 +20,7 @@ module.exports = {
         res.status(500).json({ error: 'Erro ao criar usuário' });
       }
     },
-    // Outras funções do controller...
+    
+
   };
 
