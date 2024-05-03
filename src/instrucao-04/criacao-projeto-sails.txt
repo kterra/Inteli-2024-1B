@@ -1,0 +1,19 @@
+1. Crie um novo projeto sails: sails new nome-projeto
+2. Selecione opção 2 - Empty
+3. Crie um arquivo .ejs com código HTML
+4. Configure uma rota para esta página
+    a. Se for apenas view use o formato: '/teste': { view: 'pages/teste'}
+5. Se houver controller
+    a. Crie um controller sails generate controller teste
+    b. Edite o arquivo gerado TesteController
+    b: Configure uma rota de acesso, exemplo: '/teste': { action: 'TesteController'}
+
+
+Para conectar com banco de dados:
+1. Configure conexão com banco de dados
+    a. Altere o arquivo config>datastore.js (Adicione adapter, url e ssl: true)
+    b. Altere o arquivo config>models.js (Configure migrate: alter)
+2. Crie um model: sails generate model nome-model
+    a. Edite o model criado, adicione os atributos
+3. Crie o respectivo controller: sails generate model nome-model
+    a. Edite o controller 
