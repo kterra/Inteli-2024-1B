@@ -13,7 +13,9 @@
 
 
 ### Semana 2
-- Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico ([Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link))
+- Instrução 2: Banco de Dados I - Conceitos, Modelos e SQL Básico;
+  - [Slides](https://drive.google.com/file/d/1XhHbDjkNi8Kj_cbdHsM9nsn9c5urVEMF/view?usp=drive_link)
+  - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-02)
   - Tópicos da instrução:
     - Parte 1: Introdução teórica
       - Motivação: Banco de dados no contexto do projeto
@@ -32,6 +34,8 @@
 
 ### Semana 3
 - Instrução 3.1: Banco de Dados II - Create, Read, Update, Delete;
+  - [Slides](https://drive.google.com/file/d/1aTmmSGMTYNfGKnEdO5cS0u5ouIaqvsKy/view?usp=drive_link);
+  - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-03);
 - Instrução 3.2: Banco de Dados III - Joins; 
 
 ### Semana 4
