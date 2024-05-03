@@ -38,6 +38,8 @@
   - [Slides](https://drive.google.com/file/d/1aTmmSGMTYNfGKnEdO5cS0u5ouIaqvsKy/view?usp=drive_link);
   - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-03);
 - Instrução 3.2: Banco de Dados III - Joins; 
+  - [Slides](https://drive.google.com/file/d/1r8elJODTtcvY5OlxVPDjIabKsWMgZIzN/view?usp=drive_link)
+  - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-04);
 
 ### Semana 4
 - Instrução 4: Back-end I - Node.js, models e controllers;

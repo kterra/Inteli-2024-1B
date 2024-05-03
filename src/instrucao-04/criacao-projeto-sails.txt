@@ -1,19 +1,42 @@
-1. Crie um novo projeto sails: sails new nome-projeto
-2. Selecione opção 2 - Empty
-3. Crie um arquivo .ejs com código HTML
-4. Configure uma rota para esta página
-    a. Se for apenas view use o formato: '/teste': { view: 'pages/teste'}
-5. Se houver controller
-    a. Crie um controller sails generate controller teste
-    b. Edite o arquivo gerado TesteController
-    b: Configure uma rota de acesso, exemplo: '/teste': { action: 'TesteController'}
+**Para criar um novo projeto Sails:**
 
+1. Abra o terminal e navegue até o diretório onde deseja criar o projeto.
+2. Execute o comando `sails new nome-projeto`.
+   - Este comando criará um novo projeto Sails com o nome especificado.
+3. Quando solicitado a escolher um modelo, selecione a opção 2 - "Empty".
+   - Isso criará um projeto vazio sem qualquer configuração pré-definida.
 
-Para conectar com banco de dados:
-1. Configure conexão com banco de dados
-    a. Altere o arquivo config>datastore.js (Adicione adapter, url e ssl: true)
-    b. Altere o arquivo config>models.js (Configure migrate: alter)
-2. Crie um model: sails generate model nome-model
-    a. Edite o model criado, adicione os atributos
-3. Crie o respectivo controller: sails generate model nome-model
-    a. Edite o controller 
+**Para adicionar uma página .ejs com código HTML:**
+
+4. Crie um novo arquivo .ejs dentro do diretório `views`.
+   - Você pode nomear o arquivo de acordo com a página que deseja criar, por exemplo, `teste.ejs`.
+5. Escreva o código HTML dentro do arquivo .ejs para definir o conteúdo da página.
+
+**Para configurar uma rota para esta página:**
+
+6. Abra o arquivo `config/routes.js`.
+7. Adicione uma nova rota para a página criada.
+   - Se você está apenas exibindo uma view, use o formato `'GET /teste': { view: 'teste' }`.
+   - Se você pretende usar um controller, você pode definir a rota para chamar uma ação específica do controller.
+
+**Para conectar com banco de dados:**
+
+8. Configure a conexão com o banco de dados:
+   - Abra o arquivo `config/datastores.js`.
+   - Adicione as informações de conexão, como adapter, URL e, se necessário, SSL.
+9. Configure as opções do modelo:
+   - Abra o arquivo `config/models.js`.
+   - Configure `migrate: 'alter'` para que as alterações no modelo sejam automaticamente refletidas no banco de dados.
+10. Crie um novo modelo:
+    - Execute o comando `sails generate model nome-model`.
+    - Isso criará um novo modelo com o nome especificado.
+11. Edite o arquivo do modelo criado para adicionar os atributos necessários.
+
+**Para criar o respectivo controller:**
+
+12. Crie o controller associado ao modelo:
+    - Execute o comando `sails generate controller NomeModel`.
+    - Isso criará um novo controller com métodos CRUD básicos para o modelo especificado.
+13. Edite o controller gerado conforme necessário para adicionar lógica personalizada para cada ação CRUD.
+
+Seguindo esses passos, você será capaz de criar um projeto Sails, adicionar páginas, configurar rotas e conectar-se a um banco de dados, tudo de forma clara e didática. Certifique-se de ajustar os nomes e detalhes conforme necessário para atender às necessidades específicas do seu projeto.

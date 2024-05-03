@@ -6,7 +6,7 @@
  */
 
   
-// api/controllers/UserController.js
+// api/controllers/UsuarioController.js
 module.exports = {
     showCreateForm: function (req, res) {
       return res.view('pages/createUserForm');
@@ -21,6 +21,6 @@ module.exports = {
       }
     },
     
-
+    //Complete as Operações CRUD
   };
 
