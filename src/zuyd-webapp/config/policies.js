@@ -17,6 +17,8 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  'UsuarioController': {
+    '*': true, // Permite acesso a todos os métodos de ItemController sem restrições  'delete': true // Permite acesso específico ao método delete sem restrições
+  }
 
 };
