@@ -34,37 +34,41 @@
     - [Explicação Prof. Afonso](https://www.youtube.com/live/hS57_fgOadA?si=IDDKPkOCCX4Ut6DZ)
 
 ### Semana 3
-- Instrução 3.1: Banco de Dados II - Create, Read, Update, Delete;
+- Instrução 3: Banco de Dados II - Create, Read, Update, Delete;
   - [Slides](https://drive.google.com/file/d/1aTmmSGMTYNfGKnEdO5cS0u5ouIaqvsKy/view?usp=drive_link);
   - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-03);
-- Instrução 3.2: Banco de Dados III - Joins; 
+- Instrução 4: Banco de Dados III - Joins; 
   - [Slides](https://drive.google.com/file/d/1r8elJODTtcvY5OlxVPDjIabKsWMgZIzN/view?usp=drive_link)
   - [Scripts SQL](https://github.com/kterra/Inteli-2024-1B/tree/main/src/instrucao-04);
 
 ### Semana 4
-- Instrução 4: Back-end I - Node.js, models e controllers;
+- Instrução 5: Back-end I - Node.js, models e controllers;
+  - [Slides](https://drive.google.com/file/d/1hGakif5ofCDAzM6jtHPyG9l3IgC-MF5S/view?usp=drive_link)
+  - [Tutorial Sails](https://drive.google.com/file/d/1HlDt65uDhJRrpYSAByIBzKpddogkHxXb/view?usp=drive_link)
+  - [Código-fonte](https://drive.google.com/drive/folders/10Yvq56R7e9te8_RERnYvbSKHcyj8EQg1?usp=drive_link)
 
 ### Semana 5
+- Instrução 6: Back-end II - Endpoints de leitura e escrita com documentação própria;
+- Instrução 7: Front-end 1 - HTML, DOM e Javascript;
 - Prova
-- Instrução 5.1: Front-end 1 - HTML, DOM e Javascript;
-- Instrução 5.2: Back-end II - Endpoints de leitura e escrita com documentação própria;
 
 ### Semana 6
-- Instrução 6: Front-end 2 - Javascript, chamadas assíncronas e Redes;
+- Instrução 8: Front-end 2 - Javascript, chamadas assíncronas e Redes;
  
 ### Semana 7
-- Instrução 7: Front-end 3 - CSS e Javascript;
+- Instrução 9: Front-end 3 - CSS e Javascript;
 
 ### Semana 8 
-- Instrução 8.1: Testes e automação I - Testes Unitários;
-- Instrução 8.2: Testes e automação II - Testes Manuais e TDD;
+- Instrução 10: Testes e automação I - Testes Unitários;
+- Instrução 11: Testes e automação II - Testes Manuais e TDD;
 
 ### Semana 9
+- Instrução 12: Deploy em servidor - parte 1
 - Prova 2
-- Instrução 9: Deploy em servidor - parte 1
 
 ### Semana 10
-- Instrução 10: Mergulhando nas Redes; Revisões e refinamentos;
+- Instrução 13: Mergulhando nas Redes;
+- Instrução 14: Revisões e refinamentos;
 
 ## Projeto do módulo
 ### Objetivo

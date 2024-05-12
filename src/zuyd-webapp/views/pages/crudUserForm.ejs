@@ -77,9 +77,9 @@
             if (!response.ok) {
                 throw new Error('Erro ao atualizar usuário');
             }
-            window.location.href = "/user/" + userId;
+           window.location.href = "/user/" + userId;
         })
-        .then(result => console.log('Usuário excluído com sucesso: ', result)) 
+        .then(result => console.log('Usuário atualizado com sucesso: ', result)) 
         .catch(error => {
             console.error('Erro:', error);
            
