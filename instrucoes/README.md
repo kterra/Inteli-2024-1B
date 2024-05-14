@@ -49,6 +49,7 @@
 
 ### Semana 5
 - Instrução 6: Back-end II - Endpoints de leitura e escrita com documentação própria;
+  - [Tutoriais Sails](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails)
 - Instrução 7: Front-end 1 - HTML, DOM e Javascript;
 - Prova
 
