@@ -14,7 +14,15 @@ module.exports = {
 
   create: async function (req, res) {
     try {
-      const newUser = await Usuario.create(req.body).fetch();
+
+      // Formata os dados
+      let formattedUserData = {
+        name: await sails.helpers.formatInput(req.body.name),
+        email: await sails.helpers.formatEmail(req.body.email),
+        password: req.body.password
+      };
+
+      const newUser = await Usuario.create(formattedUserData).fetch();
       res.status(201).json(newUser);
     } catch (err) {
       res.status(500).json({ error: 'Erro ao criar usuário' });

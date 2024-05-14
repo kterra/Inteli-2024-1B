@@ -1,17 +1,16 @@
 # Tutorial de implementação de CRUD com Sails.js do Backend ao Frontend - Parte 2
 
-Acesse a [parte 1 do tutorial](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1.md).
+[Get instructions Part 1 here.](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1.md)
 
-Criando uma função helper para formatar entrada de e-mail:
+Creating a helper function to format email input:
+## Step 1: Generating a helper
+In the terminal, use the command `sails generate helper format-email`.
 
-## Passo 1: Gerando um helper
-No terminal, utilize o comando `sails generate helper format-email`.
-
-## Passo 2
-Leia as instruções retornadas no terminal sobre como chamar a função.
+## Step 2
+Read the instructions returned in the terminal on how to call the function.
 `await sails.helpers...`
 
-## Passo 3: Implemente a função helper no arquivo `api/helpers/format-email.js`
+## Step 3: Implement the helper function in file `api/helpers/format-email.js`
 ```
 module.exports = {
 
@@ -42,7 +41,7 @@ module.exports = {
 };
 ```
 
-## Passo 4: Atualize a função create no arquivo  `api/controllers/UsuarioController.js`
+## Step 4: Update the create function in file `api/controllers/UsuarioController.js`
 ```
 create: async function (req, res) {
     try {
@@ -62,9 +61,8 @@ create: async function (req, res) {
   },
 ```
 
-## Passo 5: Valide a funcionalidade do site
-Utilize o comando `sails lift` no terminal para renderizar a versão atualizada do site.
-
+## Step 5: Validate the site's functionality
+Use the command `sails lift` in the terminal to render the website updated version.
 
 
 

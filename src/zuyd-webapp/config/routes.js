@@ -19,10 +19,10 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
-  '/': { view: 'pages/homepage'},
+
   '/teste': { view: 'pages/teste'},
 
-  'GET /user/create': 'UsuarioController.showUserForm',
+  'GET /': 'UsuarioController.showUserForm',
 
   // Rotas para CRUD de usuários
   'POST /user/create': 'UsuarioController.create',
