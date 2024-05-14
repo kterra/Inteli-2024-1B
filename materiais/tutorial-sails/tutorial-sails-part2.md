@@ -49,7 +49,7 @@ create: async function (req, res) {
 
       // Formata os dados
       let formattedUserData = {
-        name: await sails.helpers.formatInput(req.body.name),
+        name: req.body.name,
         email: await sails.helpers.formatEmail(req.body.email),
         password: req.body.password
       };
