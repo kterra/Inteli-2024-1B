@@ -1,6 +1,6 @@
 # Creating a helper with Sails.js 
 
-[Get instructions Part 1 here.](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1.md)
+[Get instructions Part 1 here.](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1-EN.md)
 
 Creating a helper function to format email input:
 ## Step 1: Generating a helper

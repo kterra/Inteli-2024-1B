@@ -17,6 +17,8 @@ CREATE TABLE Alunos (
 );
 
 
+
+
 -- Inserção de dados na tabela Cursos
 INSERT INTO Cursos (nome_curso, descricao) VALUES 
 ('Matemática', 'Curso avançado de matemática'),

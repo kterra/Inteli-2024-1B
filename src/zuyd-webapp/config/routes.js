@@ -22,7 +22,9 @@ module.exports.routes = {
 
   '/teste': { view: 'pages/teste'},
 
-  'GET /': 'UsuarioController.showUserForm',
+
+  'GET /user/create': 'UsuarioController.showUserForm',
+  'GET /': 'UsuarioController.list',
 
   // Rotas para CRUD de usuários
   'POST /user/create': 'UsuarioController.create',

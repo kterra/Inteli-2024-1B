@@ -39,6 +39,11 @@ module.exports = {
     }
   },
 
+  list: async (req, res) => {
+    const user = await Usuario.find();
+    return res.json(user);
+  },
+
   update: async function (req, res) {
     try {
       const updatedUser = await Usuario.updateOne({ id: req.params.id }).set(req.body);
@@ -60,6 +65,5 @@ module.exports = {
       res.status(500).json({ error: err.message });
     }
   }
-
 };
 
