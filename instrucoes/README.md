@@ -44,7 +44,7 @@
 ### Semana 4
 - Instrução 5: Back-end I - Node.js, models e controllers;
   - [Slides](https://drive.google.com/file/d/1hGakif5ofCDAzM6jtHPyG9l3IgC-MF5S/view?usp=drive_link)
-  - [Tutorial Sails](https://drive.google.com/file/d/1HlDt65uDhJRrpYSAByIBzKpddogkHxXb/view?usp=drive_link)
+  - [Tutorial Sails](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1.md)
   - [Código-fonte](https://drive.google.com/drive/folders/10Yvq56R7e9te8_RERnYvbSKHcyj8EQg1?usp=drive_link)
 
 ### Semana 5
