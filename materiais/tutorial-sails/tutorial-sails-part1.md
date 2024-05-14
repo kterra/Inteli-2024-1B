@@ -12,7 +12,7 @@ Em seguida, escolha a opção 2, Empty.
 - Abra o arquivo `config/datastores.js`. Adicione as informações de conexão, como:
 ```
 adapter: ‘sails-postgresql’,
-url: **Insira aqui URL do host do seu banco de dados criado no Render**,
+url: '**Insira aqui a URL Externa do host do seu banco de dados criado no Render entre aspas simples **',
 ssl: true
 ```
 2. Instale a biblioteca do **PostgreSQL** no seu projeto. 
