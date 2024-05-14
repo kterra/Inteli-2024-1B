@@ -1,4 +1,4 @@
-# Tutorial for Implementing CRUD with Sails.js from Backend to Frontend - Part 1
+# Implementing CRUD with Sails.js from Backend to Frontend - Part 1
 
 To follow this tutorial, you need to have a Sails project created. If you don't have one yet, create it using the command:
 ```

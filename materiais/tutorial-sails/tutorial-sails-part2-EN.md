@@ -1,4 +1,4 @@
-# Tutorial de implementação de CRUD com Sails.js do Backend ao Frontend - Parte 2
+# Implementing CRUD with Sails.js from Backend to Frontend - Part 2
 
 [Get instructions Part 1 here.](https://github.com/kterra/Inteli-2024-1B/tree/main/materiais/tutorial-sails/tutorial-sails-part1.md)
 
