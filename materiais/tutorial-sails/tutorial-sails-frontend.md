@@ -14,7 +14,7 @@ Um projeto típico do Sails.js inclui os seguintes diretórios e arquivos princi
 
 ## Usando as Visualizações Incorporadas do Sails.js
 O Sails.js pode renderizar visualizações do lado do servidor usando o modelo EJS. 
-**No arquivo EJS você pode escrever código HTML e Javascript.**
+**No arquivo EJS você pode escrever código HTML e Javascript.** 
 
 - `views/`: Crie seus modelos HTML no diretório `views/`.
 - `assets/`:  Coloque seu CSS, JavaScript e imagens no diretório `assets/`.
