@@ -14,7 +14,7 @@ A typical Sails.js project includes the following key directories and files:
 
 
 ## Using Sails.js Built-in Views
-Sails.js can render server-side views using EJS templating.
+Sails.js can render server-side views using EJS templating. EJS files support HTML and Javascript.
 
 - Views: Create your HTML templates in the views/ directory.
 - Assets: Place your CSS, JavaScript, and images in the assets/ directory.

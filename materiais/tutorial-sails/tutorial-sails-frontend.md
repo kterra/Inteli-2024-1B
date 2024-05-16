@@ -13,7 +13,8 @@ Um projeto típico do Sails.js inclui os seguintes diretórios e arquivos princi
 - `views/`: Mantém seus modelos de visualização (se estiver usando renderização do lado do servidor).
 
 ## Usando as Visualizações Incorporadas do Sails.js
-O Sails.js pode renderizar visualizações do lado do servidor usando o modelo EJS.
+O Sails.js pode renderizar visualizações do lado do servidor usando o modelo EJS. 
+**No arquivo EJS você pode escrever código HTML e Javascript.**
 
 - `views/`: Crie seus modelos HTML no diretório `views/`.
 - `assets/`:  Coloque seu CSS, JavaScript e imagens no diretório `assets/`.
@@ -48,7 +49,7 @@ Dentro do `layout.ejs`, você pode definir espaços reservados onde o conteúdo 
 ### Exemplo:
 Aqui está um exemplo simples de um arquivo `layout.ejs`:
 
-```ejs
+```html
 <!-- views/layout.ejs -->
 <!DOCTYPE html>
 <html>
@@ -80,7 +81,7 @@ Aqui está um exemplo simples de um arquivo `layout.ejs`:
 ```
 
 Agora, queremos criar novas views usando o layout ejs, home.ejs e about.ejs:
-```ejs
+```html
 <!-- views/home.ejs -->
 <%- include('layout', { title: 'Home' }) %> <!-- Include the layout and set the title -->
 <div class="content">
@@ -89,7 +90,7 @@ Agora, queremos criar novas views usando o layout ejs, home.ejs e about.ejs:
 </div>
 ```
 
-```ejs
+```html
 <!-- views/about.ejs -->
 <%- include('layout', { title: 'About' }) %> <!-- Include the layout and set the title -->
 <div class="content">
