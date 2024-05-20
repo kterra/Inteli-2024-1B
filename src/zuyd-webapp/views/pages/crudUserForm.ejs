@@ -89,6 +89,7 @@
 
         function deleteUser() {
         var userId = document.getElementById("deleteId").value;
+        
         fetch('/user/' + userId, {
             method: 'DELETE'
         })
