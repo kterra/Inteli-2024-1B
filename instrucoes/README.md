@@ -57,9 +57,11 @@
 
 ### Semana 6
 - Instrução 8: Front-end 2 - Javascript, chamadas assíncronas e Redes;
+  - [Slides](https://drive.google.com/drive/folders/1kw-xK3sYGSbmDQ8a4HXOz2ypJJ5aXog3?usp=drive_link)
  
 ### Semana 7
 - Instrução 9: Front-end 3 - CSS e Javascript;
+  - [Slides](https://drive.google.com/file/d/1F2hWZNs6sqfQ1UsRNwv6qi4M-kOawv-N/view?usp=drive_link)
 
 ### Semana 8 
 - Instrução 10: Testes e automação I - Testes Unitários;
