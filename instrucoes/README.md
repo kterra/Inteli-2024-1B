@@ -75,6 +75,9 @@
 - Instrução 13: Mergulhando nas Redes;
 - Instrução 14: Revisões e refinamentos;
 
+## Assets
+- Acesse [aqui](/materiais/).
+
 ## Projeto do módulo
 ### Objetivo
 - Site online para apoiar estudantes
