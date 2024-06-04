@@ -16,22 +16,29 @@ Dentro de test, crie uma subpasta chamada unit para os testes unitários.
 3. Configurando o Ambiente de Testes (lifecycle.test.js):
 ```
 // test/lifecycle.test.js
-var sails = require('sails');
+var sails = require("sails");
 
-before(function(done) {
-    this.timeout(5000);
+before(function (done) {
+  this.timeout(5000);
 
-    sails.lift({
-        hooks: { grunt: false, csrf: false },
-        log: { level: 'warn' }
-    }, function(err) {
-        if (err) return done(err);
-        return done();
-    });
+  sails.lift(
+    {
+      hooks: { grunt: false, csrf: false },
+      log: { level: "warn" },
+    },
+    function (err) {
+      if (err) {
+        return done(err);
+      }
+
+      return done();
+    }
+  );
 });
 
-after(function(done) {
-    sails.lower(done);
+after(function (done) {
+  sails.lower(done);
+});
 ```
 
 4. Criando Testes de Controller e Integração:
