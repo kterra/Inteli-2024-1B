@@ -44,7 +44,8 @@ after(function (done) {
 });
 ```
 
-4. Criando Testes de Controller:
+4. Crie uma pasta `unit` dentro da pasta teste.
+5. Dentro da pasta unit, crie os testes de Controller:
 Exemplo de Teste de Controller (UserController.test.js)
 ```
 // test/unit/UserController.test.js
