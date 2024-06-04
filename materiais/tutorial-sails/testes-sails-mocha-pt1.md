@@ -8,12 +8,15 @@ Crie testes robustos para sua aplicação Sails.js e garanta a qualidade do seu 
 
 ## Passos
 1. Instalando as Ferramentas:
-`npm install mocha sinon supertest --save-dev`
+`npm install mocha sinon supertest assert --save-dev`
+
 2. Organizando os Testes:
 Crie a pasta test na raiz do seu projeto Sails.js.
 Dentro de test, crie uma subpasta chamada unit para os testes unitários.
 
-3. Configurando o Ambiente de Testes (lifecycle.test.js):
+3. Dentro da pasta teste crie o arquivo `lifecycle.test.js`
+
+4. Configurando o Ambiente de Testes (lifecycle.test.js):
 ```
 // test/lifecycle.test.js
 var sails = require("sails");
@@ -41,13 +44,13 @@ after(function (done) {
 });
 ```
 
-4. Criando Testes de Controller e Integração:
+4. Criando Testes de Controller:
 Exemplo de Teste de Controller (UserController.test.js)
 ```
 // test/unit/UserController.test.js
 const assert = require('assert');
 const controller = require('../../api/controllers/UserController');
-const { mockAsync, RESPONSE, USER, FILE } = require('../util/');
+
 
 describe('UserController', () => {
     it('Deve criar usuário com sucesso', async () => {
@@ -59,6 +62,3 @@ describe('UserController', () => {
     });
 });
 ```
-
-5. Executando os Testes:
-`mocha test/unit/**/*.test.js`
