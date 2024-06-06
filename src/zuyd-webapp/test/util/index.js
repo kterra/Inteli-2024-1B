@@ -1,25 +1,20 @@
-const sinon = require("sinon");
-
-const mockAsync = (model, module, result = null) => {
-  return sinon.stub(model, module).resolves(result);
-};
-
-const RESPONSE = {
-  json: function (data) {
-    return data;
-  },
-};
-const USER = {
-  id: 1,
-  name: "Kizzy",
-  email: "teste@gmail.com",
-  password: "123456",
-};
-
-
+const sinon = require('sinon');
 
 module.exports = {
-  mockAsync,
-  RESPONSE,
-  USER,
+  mockAsync(obj, method, returnValue) {
+    return sinon.stub(obj, method).resolves(returnValue);
+  },
+  mockReject(obj, method, error) {
+    return sinon.stub(obj, method).rejects(error);
+  },
+  RESPONSE: {
+    status: sinon.stub().returnsThis(),
+    json: sinon.stub()
+  },
+  USER: {
+    id: 1,
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    password: 'password123'
+  }
 };

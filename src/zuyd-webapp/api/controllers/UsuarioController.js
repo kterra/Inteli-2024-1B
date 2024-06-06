@@ -23,6 +23,7 @@ module.exports = {
       };
 
       const newUser = await Usuario.create(formattedUserData).fetch();
+      
       res.status(201).json(newUser);
     } catch (err) {
       res.status(500).json({ error: 'Erro ao criar usuário' });

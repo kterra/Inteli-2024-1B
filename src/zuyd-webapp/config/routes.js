@@ -20,7 +20,7 @@ module.exports.routes = {
   ***************************************************************************/
 
 
-  '/teste': { view: 'pages/teste', locals:  {layout: false}},
+ 
 
 
   'GET /user/create': 'UsuarioController.showUserForm',
