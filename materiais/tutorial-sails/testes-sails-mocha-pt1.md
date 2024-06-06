@@ -69,8 +69,3 @@ describe('UserController', () => {
 });
 ```
 7. Para rodar todos os testes utilize o comando: `npm test`
-8. Para rodar um teste específico utilize:`npx mocha caminho\do\teste`
-Por exemplo:
-```
-npx mocha test/unit/UsuarioController.test.js
-```
