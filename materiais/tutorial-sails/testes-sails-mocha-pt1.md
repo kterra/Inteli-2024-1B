@@ -49,8 +49,8 @@ after(function (done) {
 "test": "node ./node_modules/mocha/bin/mocha test/lifecycle.test.js test/unit/**/*.test.js",
 ```
 
-6. Crie uma pasta `unit` dentro da pasta teste.
-7. Dentro da pasta unit, crie os testes de Controller:
+5. Crie uma pasta `unit` dentro da pasta teste.
+6. Dentro da pasta unit, crie os testes de Controller:
 Exemplo de Teste de Controller (UserController.test.js)
 ```
 // test/unit/UserController.test.js
