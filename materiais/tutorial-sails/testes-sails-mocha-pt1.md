@@ -44,7 +44,13 @@ after(function (done) {
 });
 ```
 
-4. Criando Testes de Controller:
+4. Atualize o comando npm "test" no arquivo `package.json`:
+```
+"test": "node ./node_modules/mocha/bin/mocha test/lifecycle.test.js test/unit/**/*.test.js",
+```
+
+5. Crie uma pasta `unit` dentro da pasta teste.
+6. Dentro da pasta unit, crie os testes de Controller:
 Exemplo de Teste de Controller (UserController.test.js)
 ```
 // test/unit/UserController.test.js
@@ -61,4 +67,10 @@ describe('UserController', () => {
         // ... (seu teste completo)
     });
 });
+```
+7. Para rodar todos os testes utilize o comando: `npm test`
+8. Para rodar um teste específico utilize:`npx mocha caminho\do\teste`
+Por exemplo:
+```
+npx mocha test/unit/UsuarioController.test.js
 ```
