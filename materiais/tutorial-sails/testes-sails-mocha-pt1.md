@@ -45,10 +45,12 @@ after(function (done) {
 ```
 
 4. Atualize o comando npm "test" no arquivo `package.json`:
-`node ./node_modules/mocha/bin/mocha test/lifecycle.test.js test/unit/**/*.test.js`
+```
+"test": "node ./node_modules/mocha/bin/mocha test/lifecycle.test.js test/unit/**/*.test.js",
+```
 
-5. Crie uma pasta `unit` dentro da pasta teste.
-6. Dentro da pasta unit, crie os testes de Controller:
+6. Crie uma pasta `unit` dentro da pasta teste.
+7. Dentro da pasta unit, crie os testes de Controller:
 Exemplo de Teste de Controller (UserController.test.js)
 ```
 // test/unit/UserController.test.js
