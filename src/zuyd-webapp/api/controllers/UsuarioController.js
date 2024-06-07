@@ -22,10 +22,13 @@ module.exports = {
         password: req.body.password
       };
 
-      const newUser = await Usuario.create(formattedUserData).fetch();
+      const newUser = await Usuario.create(formattedUserData);
       
-      res.status(201).json(newUser);
+      return res.status(200).json({
+        message: 'Usuario criado com sucesso.',
+      });
     } catch (err) {
+      sails.log(err)
       res.status(500).json({ error: 'Erro ao criar usuário' });
     }
   },
@@ -33,10 +36,13 @@ module.exports = {
   read: async function (req, res) {
     try {
       const user = await Usuario.findOne({ id: req.params.id });
-      if (!user) {throw new Error('Usuário não encontrado');}
+      if (!user) {
+        throw new Error('Usuário não encontrado.');
+      }
       res.json(user);
     } catch (err) {
-      res.status(404).json({ error: err.message });
+      sails.log(err);
+      res.status(404).json({ message: 'Usuário não encontrado.' });
     }
   },
 

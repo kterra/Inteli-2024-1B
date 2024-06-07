@@ -8,13 +8,22 @@ module.exports = {
     return sinon.stub(obj, method).rejects(error);
   },
   RESPONSE: {
-    status: sinon.stub().returnsThis(),
-    json: sinon.stub()
+    status: function(code) {
+      this.statusCode = code;
+      return this;
+    },
+    json: function(data) {
+      this.body = data;
+    },
   },
   USER: {
-    id: 1,
     name: 'John Doe',
     email: 'john.doe@example.com',
     password: 'password123'
+  },
+
+  USER_ID: {
+    id: 11,
   }
+
 };
