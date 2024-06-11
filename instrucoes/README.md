@@ -73,7 +73,7 @@
     - [Exemplo Prof. Afonso](https://github.com/afonsobrandaointeli/sails-completo/tree/main/test)
 
 ### Semana 9
-- Instrução 12: Deploy em servidor - parte 1
+- Instrução 12: Deploy em servidor
 - Prova 2
 
 ### Semana 10
