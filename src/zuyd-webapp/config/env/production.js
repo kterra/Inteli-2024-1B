@@ -6,6 +6,7 @@ module.exports = {
       adapter: 'sails-postgresql',
       url: process.env.DATABASE_URL,
     },
+  },
   sockets: {
     onlyAllowOrigins: [
       "https://inteli-2024-1b-1.onrender.com",
@@ -19,4 +20,4 @@ module.exports = {
   http: {
     trustProxy: true,
   }
-}
+};
