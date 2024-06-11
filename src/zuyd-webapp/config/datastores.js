@@ -49,7 +49,7 @@ module.exports.datastores = {
     *                                                                          *
     ***************************************************************************/
     adapter: 'sails-postgresql',
-    url: 'postgres://kterra:wccDW3vMwE1jV20IqW3mOM45DR017QtM@dpg-coq3pq4f7o1s73eaflgg-a.oregon-postgres.render.com/zuyd_webapp_database',
+    url: process.env.DATABASE_URL,
     ssl: true
   },
 
