@@ -65,7 +65,12 @@
 
 ### Semana 8 
 - Instrução 10: Testes e automação I - Testes Unitários;
+  - [Slides](https://drive.google.com/file/d/174ugbzYcpGGo-dTOG4r7Z7x8CBF1XYH6/view?usp=drive_link)
 - Instrução 11: Testes e automação II - Testes Manuais e TDD;
+  - [Slides](https://drive.google.com/file/d/1gYJ5wm43Lt1S7lsETRBchkRRMXPNDBIu/view?usp=drive_link)
+  - Código-fonte Testes
+    - [Exemplo Prof. Kizzy](https://github.com/kterra/Inteli-2024-1B/tree/main/src/zuyd-webapp/test)
+    - [Exemplo Prof. Afonso](https://github.com/afonsobrandaointeli/sails-completo/tree/main/test)
 
 ### Semana 9
 - Instrução 12: Deploy em servidor - parte 1
@@ -80,7 +85,7 @@
 
 ## Projeto do módulo
 ### Objetivo
-- Site online para apoiar estudantes
+- Site online para apoiar estudantes do Cesim Game.
 
 ### ESCOPO
 #### O que deve ter:
