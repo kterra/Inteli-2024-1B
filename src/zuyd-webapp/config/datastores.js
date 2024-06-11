@@ -13,6 +13,7 @@
  * https://sailsjs.com/config/datastores
  */
 
+require('dotenv').config();
 module.exports.datastores = {
 
 
