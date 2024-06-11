@@ -23,8 +23,7 @@ module.exports.routes = {
  
 
 
-  'GET /user/create': 'UsuarioController.showUserForm',
-  'GET /': 'UsuarioController.list',
+  'GET /': 'UsuarioController.showUserForm',
 
   // Rotas para CRUD de usuários
   'POST /user/create': 'UsuarioController.create',
